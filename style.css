@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+/* Add or modify these CSS rules for font design */
+
+body {
+    font-family: 'Roboto', sans-serif; /* Example font family */
+    font-size: 20px; /* Example font size */
+    line-height: 2; /* Example line height */
+    color: #0e0a0a; /* Example font color */
+}
+
+h1, h2, h3 {
+    font-weight: bold; /* Example font weight for headings */
+}
+
+p {
+    font-size: 20px; /* Example font size for paragraphs */
+    font-weight: normal; /* Example font weight for paragraphs */
+}
+
+ul {
+    list-style-type: none; /* Example removing list bullets */
+}
+
+a {
+    color: #007bff; /* Example link color */
+    text-decoration: none; /* Example removing underline from links */
+}
+
+/* Add this if you want to import fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.container {
+    max-width: 1200px;
+    margin: 20 auto;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #200404;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+ #skills, #projects, #resume, #contact {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+
+.project {
+    background-color: #fbf0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 60%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* Add this CSS to your existing styles */
+
+#about .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 250px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    flex: 2;
+    text-align: left;
+}
